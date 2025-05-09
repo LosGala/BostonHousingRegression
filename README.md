@@ -44,11 +44,4 @@ El dataset **BostonHousing** contiene información de diversas características 
 
 Gráficos de dispersión que muestran la relación entre los valores reales y los predichos por el modelo. Un buen modelo debería mostrar una distribución cercana a la línea de 45 grados.
 
----
 
-## 🚀 Mejoras sugeridas
-
-- Incorporar validación cruzada con `trainControl(method = "cv")`.
-- Calcular métricas de desempeño como:
-  ```r
-  postResample(pred = Model.testing, obs = TestingSet$medv)
